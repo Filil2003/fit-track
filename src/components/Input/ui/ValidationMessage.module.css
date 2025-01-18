@@ -1,0 +1,20 @@
+.message {
+  margin-left: 0.5em;
+  font-size: .95em;
+}
+
+.error {
+  color: var(--error-color);
+}
+
+.error::before {
+  content: '✘ ';
+}
+
+.success {
+  color: var(--success-color);
+}
+
+.success::before {
+  content: '✔ ';
+}

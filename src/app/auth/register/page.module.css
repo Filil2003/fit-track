@@ -1,0 +1,38 @@
+.poster {
+  background: var(--color-accent);
+  color: var(--text-color-secondary);
+  display: grid;
+  place-content: center;
+  row-gap: 0.75em;
+  padding: 1em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.section {
+  background: var(--background-color);
+  color: var(--text-color-primary);
+  display: grid;
+  place-content: center;
+  row-gap: 2em;
+  padding: 1em 1em 3em;
+  text-wrap: balance;
+}
+
+.section__header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section__header p {
+  font-size: 1rem;
+}
+
+.form {
+  display: grid;
+  row-gap: 1em;
+}
+
+.form button {
+  margin-top: 1em;
+}

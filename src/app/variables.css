@@ -1,0 +1,19 @@
+:root {
+  --color-accent: #ff3344;
+
+  --error-color: #cc0000;
+  --success-color: #007e33;
+  --warning-color: #ff8800;
+  --info-color: #0099cc;
+
+  --background-color: #000;
+  --foreground-color: #1c1c27;
+
+  --text-color-primary: #fff;
+  --text-color-secondary: #212427;
+  --text-color-inactive: #767681;
+
+  --border-radius: 2px;
+
+  --transition-duration: 0.3s;
+}
